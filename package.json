@@ -1,0 +1,33 @@
+{
+  "name": "x.pomelo-client",
+  "version": "0.0.1",
+  "description": "pomelo client for CommonJs(nodejs,webpack,etc...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xialeistudio/x.pomelo-client.git"
+  },
+  "keywords": [
+    "pomelo",
+    "socket.io",
+    "websocket"
+  ],
+  "author": "xialeistudio <1065890063@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xialeistudio/x.pomelo-client/issues"
+  },
+  "homepage": "https://github.com/xialeistudio/x.pomelo-client#readme",
+  "dependencies": {
+    "debug": "^2.4.4",
+    "events": "^1.1.1",
+    "socket.io-client": "^0.9.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
+  }
+}
