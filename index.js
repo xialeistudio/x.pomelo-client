@@ -117,7 +117,7 @@ pomelo.init = function(params, callback) {
     url += ':' + port;
   }
 
-  socket = io.connect(url, {'force new connection': true, reconnect: false});
+  socket = io(url, {'force new connection': true, reconnect: false});
 
   socket.on('connect', function() {
     debug('connected');
