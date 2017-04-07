@@ -1,6 +1,6 @@
 {
   "name": "x.pomelo-client",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "pomelo client for CommonJs(nodejs,webpack,etc...)",
   "main": "index.js",
   "scripts": {
